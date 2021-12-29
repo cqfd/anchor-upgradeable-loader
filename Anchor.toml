@@ -1,0 +1,12 @@
+[programs.localnet]
+anchor_upgrade_authority = "A6ASDXsvLnewMsTo3H1pXR1SMg3sZLLu1MrgLJVVpFtm"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/alan/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
